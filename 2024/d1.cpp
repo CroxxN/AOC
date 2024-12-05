@@ -62,4 +62,5 @@ int part_two(ifstream *file){
 int main(){
     ifstream file("d1.txt");
     cout << part_two(&file) << endl;
+    return 0;
 }
